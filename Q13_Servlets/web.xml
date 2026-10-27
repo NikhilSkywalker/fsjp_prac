@@ -1,0 +1,11 @@
+<!-- Q13 & Q14 URL mappings -->
+<web-app>
+    <servlet>
+        <servlet-name>WelcomeGenericServlet</servlet-name>
+        <servlet-class>WelcomeGenericServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>WelcomeGenericServlet</servlet-name>
+        <url-pattern>/welcome</url-pattern>
+    </servlet-mapping>
+</web-app>

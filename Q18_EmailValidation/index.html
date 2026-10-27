@@ -1,0 +1,19 @@
+<!-- Q18: JS Email Validation -->
+<!DOCTYPE html>
+<html>
+<body>
+    <script>
+        let valid = false;
+        while(!valid) {
+            let email = prompt("Enter your email address:");
+            // Logic: Basic validation for '@' and '.'
+            if (email && email.includes('@') && email.includes('.')) {
+                alert("Email accepted!");
+                valid = true;
+            } else {
+                alert("Invalid email! Must contain '@' and '.'. Please re-enter.");
+            }
+        }
+    </script>
+</body>
+</html>
